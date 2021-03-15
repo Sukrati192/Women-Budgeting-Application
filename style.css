@@ -1,0 +1,61 @@
+
+  body {
+    background-image: linear-gradient(to left, #e4bad4, #e9b1cb, #eea9bf, #f2a1b1, #f499a1, #ef9599, #ea9190, #e58d88, #db8a87, #d08686, #c68384, #bb8082);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width:100vw;
+  }
+  .main{
+    background-image: linear-gradient(to right top, #caf7e3, #d1f9e4, #d8fae5, #dffbe7, #e5fde9, #ecfae4, #f3f8e0, #f9f5df, #ffeedc, #ffe7df, #ffe2e5, #f6dfeb);    padding-top: 50px;
+    padding-bottom: 140px;
+    max-width:100%;
+  }
+  
+  .jumbotron-text {
+    /*TAGLINE UNDER NAME*/
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    
+  }
+  .jumbotron-text h1 {
+    /*YOUR NAME*/
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color:black;
+    
+  }
+  @media screen and (min-width:601px){
+    .jumbotron-text h1 {
+      /*YOUR NAME*/
+      font-size: 90px;
+      padding-top: 70px;
+    }
+  }
+  @media screen and (max-width:600px){
+    .jumbotron-text h1{
+        font-size: 50px;
+    }
+  }
+  .jumbotron-text p {
+    padding-top: 30px; 
+    color: grey; 
+  }
+  form, a{
+    font-family: 'Shippori Mincho B1', serif;
+  }
+  *{
+    font-size: 16px;
+  }
+  .required:after {
+    content:" *";
+    color: red;
+  }
+  .margin{
+    padding-left: 100px;
+  }
